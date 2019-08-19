@@ -11,7 +11,7 @@ export interface Options {
     /**
      * Defines if the animation should play only once or repeatedly in an endless loop
      */
-    loop?: boolean;
+    loop?: boolean | number;
     /**
      * Defines if the animation should immediately play when the component enters the DOM
      */
